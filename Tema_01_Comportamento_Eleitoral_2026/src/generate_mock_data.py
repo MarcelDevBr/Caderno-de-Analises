@@ -16,6 +16,9 @@ def generate_mock_voters(n_samples=1000):
         'bloco_d_tabelamento': np.random.randint(1, 6, n_samples),
         'bloco_e_punitivismo': np.random.randint(1, 6, n_samples),
         'bloco_e_educacao': np.random.randint(1, 6, n_samples),
+        'bloco_g_corrupcao': np.random.randint(1, 6, n_samples),
+        'bloco_g_pesquisa': np.random.randint(1, 6, n_samples),
+        'bloco_g_politica_externa': np.random.randint(1, 6, n_samples),
         'rejeicao_absoluta': np.random.choice(['Lula', 'Flavio Bolsonaro', 'Ciro Gomes', 'Nenhum'], n_samples)
     }
     return pd.DataFrame(data)
