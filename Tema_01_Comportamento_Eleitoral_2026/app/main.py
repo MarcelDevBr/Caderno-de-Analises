@@ -24,7 +24,6 @@ def main():
     corrupcao = st.slider("Corrupção (1=Sistêmica, 5=Punitiva)", 1, 5, 3)
     pesquisa = st.slider("Pesquisa (1=Iniciativa Privada, 5=Estado Estratégico)", 1, 5, 3)
     politica_externa = st.slider("Política Externa (1=Alinhamento EUA, 5=Sul Global)", 1, 5, 3)
-    politica_externa = st.slider("Política Externa (1=Alinhamento EUA, 5=Sul Global)", 1, 5, 3)
     
     opcoes_rejeicao = ['Nenhum', 'Lula', 'Flavio Bolsonaro', 'Romeu Zema', 'Ciro Gomes']
     rejeicao_absoluta = st.selectbox("Rejeição Absoluta (Não votaria de jeito nenhum):", opcoes_rejeicao)
